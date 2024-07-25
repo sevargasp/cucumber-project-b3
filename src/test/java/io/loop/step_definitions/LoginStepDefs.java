@@ -25,7 +25,7 @@ public class LoginStepDefs {
     public void user_enters_username_for_client() {
         BrowserUtils.waitForClickable(loginPage.loginButton, DocuportConstants.large);
         loginPage.usernameInput.sendKeys(DocuportConstants.USERNAME_CLIENT);
-        assertTrue(3 == 4);//lo hacemos fallar a proposito
+        assertTrue(3 == 4);//lo hacemos fallar a propositoa
     }
     @When("user enters password for client")
     public void user_enters_password_for_client() {
