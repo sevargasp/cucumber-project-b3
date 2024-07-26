@@ -14,6 +14,7 @@ import static org.junit.Assert.assertTrue;
 public class LoginStepDefs {
 //corriendo estos metodos, me va arrojar unos pasos del features, aqui es cuando la consola me arroja unas letras rojas con anotaciones.
 //cucumber ayuda a generar code snippet
+    //this is the code implementation.
     LoginPage loginPage = new LoginPage();
 
     @Given("user is on Docuport login page")

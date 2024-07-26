@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4842d4c8-a970-4f0b-b761-9db3640a40de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/runner/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/DocuportConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/DocuportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/DocuportWebTableUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/LoopCampConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" afterDir="false" />
+    <list default="true" id="4842d4c8-a970-4f0b-b761-9db3640a40de" name="Changes" comment="first onewd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginFeature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +46,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -118,11 +103,38 @@
       <updated>1721576419846</updated>
       <workItem from="1721576420901" duration="7651000" />
       <workItem from="1721716235034" duration="9000" />
-      <workItem from="1721886736721" duration="4105000" />
+      <workItem from="1721886736721" duration="10644000" />
+      <workItem from="1721968973279" duration="14000" />
     </task>
+    <task id="LOCAL-00001" summary="first one">
+      <option name="closed" value="true" />
+      <created>1721949907173</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721949907173</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first onewd">
+      <option name="closed" value="true" />
+      <created>1721950083478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721950083478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first one" />
+    <MESSAGE value="first onewd" />
+    <option name="LAST_COMMIT_MESSAGE" value="first onewd" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
