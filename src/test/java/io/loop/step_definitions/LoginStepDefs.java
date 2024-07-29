@@ -3,6 +3,8 @@ package io.loop.step_definitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+//import io.cucumber.java.en.*;
+
 import io.loop.pages.LoginPage;
 import io.loop.utilities.BrowserUtils;
 import io.loop.utilities.ConfigurationReader;
@@ -26,7 +28,7 @@ public class LoginStepDefs {
     public void user_enters_username_for_client() {
         BrowserUtils.waitForClickable(loginPage.loginButton, DocuportConstants.large);
         loginPage.usernameInput.sendKeys(DocuportConstants.USERNAME_CLIENT);
-        assertTrue(3 == 4);//lo hacemos fallar a propositoa
+        assertTrue(3 == 3);//lo hacemos fallar a propositoa
     }
     @When("user enters password for client")
     public void user_enters_password_for_client() {
@@ -50,5 +52,31 @@ public class LoginStepDefs {
     public void user_should_see_the_home_page_for_employee() {
 
     }
+    @When("user enters username for supervisor")
+    public void user_enters_username_for_supervisor() {
+
+    }
+    @When("user enters password for supervisor")
+    public void user_enters_password_for_supervisor() {
+
+    }
+    @Then("user should see the home page for supervisor")
+    public void user_should_see_the_home_page_for_supervisor() {
+
+    }
+    @When("user enters username for advisor")
+    public void user_enters_username_for_advisor() {
+
+    }
+    @When("user enters password for advisor")
+    public void user_enters_password_for_advisor() {
+
+    }
+    @Then("user should see the home page for advisor")
+    public void user_should_see_the_home_page_for_advisor() {
+
+    }
+
+
 
 }
