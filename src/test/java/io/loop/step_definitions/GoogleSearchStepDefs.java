@@ -54,7 +54,7 @@ public class GoogleSearchStepDefs {
 //            googleSearchPage.searchBox.sendKeys(item + Keys.ENTER);
 //            Thread.sleep(1000);
 //            assertEquals(item + " - Google Search", Driver.getDriver().getTitle());
-//        }
+//        }//apartir de aqui el crea la lista.
 */
         /*
 //        items.forEach(p -> {
@@ -68,11 +68,12 @@ public class GoogleSearchStepDefs {
 //            assertEquals(p + " - Google Search", Driver.getDriver().getTitle());
 //        });*/
 
-        for (Map<String, String> item : items) {
+        for (Map<String, String> item : items) {//el itera como key value
             System.out.println("item.get(\"items\") = " + item.get("items"));
         }
     }
 
+    //los siguientes 2 definiciones no son para data table
     @When("user searches for the {string}")
     public void user_search_for_the(String country) {
         googleSearchPage.searchBox.sendKeys("What is the capital of " + country + Keys.ENTER);

@@ -5,6 +5,7 @@ Feature: product data table practice
 # practice List<Map<String,String>>
     Given User is on the HomePage
     Then User should be able to see expected prices in the following products
+#    if i have headers it means map
       | Category | Product           | expectedPrice |
       | Phones   | Samsung galaxy s6 | 360           |
       | Phones   | Nokia lumia 1520  | 820           |
@@ -41,6 +42,7 @@ Feature: product data table practice
   Scenario: verify each product price listOfList
     Given User is on the HomePage
     Then User should be able to see expected prices in following products with listOflist
+#    i have to rid off the headers
       | Phones   | Samsung galaxy s6 | 360 |
       | Phones   | Nokia lumia 1520  | 820 |
       | Phones   | Nexus 6           | 650 |
@@ -61,10 +63,45 @@ Feature: product data table practice
 
     # practice Map<String, List<String>>
 #  this exercise, just with map, the key is the first column, Group2 and Group3
+
+
   @mapList
   Scenario: verify students names on discord
     Then User should be able to see the following names in their groups
+#este ejercicio se mira hacia la derecha, entonces en este mapa se tiene que group2 es la llave, y el valor es cada lista que contiene los valores de ese respectivo grupo.
       | Group2 | Nadir  | Feyruz | Gina  |
       | Group3 | Alex M | Alex S | James |
 
 #    i can convert the first table as this exercise/
+
+  @PracticingListOfMap
+  Scenario: verify students names on discord like the first exercise
+    Then User should be able to see the following names in their groups on Discord
+#ejercicio List<Map<String,String>>
+
+      | Group2 | Group3 |
+      | Nadir  | Alex M |
+      | Feyruz | Alex S |
+      | Gina   | James  |
+
+#another exercise
+
+
+
+  @smalTaskMapofList
+  Scenario: verify each product price
+# practice Map of List
+    Given User is on the HomePage
+    Then User should be able to see expected prices in the following products with Map Of List
+#    if i have headers it means map
+      | Category      | Phones            | Phones           | Phones  | Laptops      | Laptops      | Laptops     | Monitors         | Monitors     |
+      | Product       | Samsung galaxy s6 | Nokia lumia 1520 | Nexus 6 | Sony vaio i5 | Sony vaio i7 | MacBook air | Apple monitor 24 | ASUS Full HD |
+      | expectedPrice | 360               | 820              | 650     | 790          | 790          | 700         | 400              | 230          |
+
+
+
+
+
+
+
+
