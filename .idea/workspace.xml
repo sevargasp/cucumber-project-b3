@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4842d4c8-a970-4f0b-b761-9db3640a40de" name="Changes" comment="first onewd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/pages/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/GoogleSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/google_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/google_search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/loopAcademyAutomation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/loopAcademyAutomation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/runner/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/GoogleSearchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/GoogleSearchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/ProductStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/step_definitions/ProductStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/google_search_data_table.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/google_search_data_table.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/product.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +38,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: product.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: smart_bear_order.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Google search for capital cities.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Search functionality result title verification.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Searching multiple items.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: user should be able to place order and order should be seen in page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: verify each product price.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: verify students names on discord like the first exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: verify students names on discord.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.CukesRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FailedRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cucumber-project-b3 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cucumber-project-b3 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cucumber-project-b3 [verify].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -47,7 +62,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -65,16 +83,16 @@
       <recent name="io.loop.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Search functionality result title verification">
-    <configuration name="Scenario: Search functionality result title verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: user should be able to place order and order should be seen in page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/google_search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/smart_bear_order.feature" />
       <option name="GLUE" value="io.loop.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-project-b3" />
-      <option name="NAME_FILTER" value="^Search functionality result title verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search functionality result title verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search functionality result title verification" />
+      <option name="NAME_FILTER" value="^user should be able to place order and order should be seen in page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user should be able to place order and order should be seen in page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user should be able to place order and order should be seen in page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -86,15 +104,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Searching multiple items" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: verify each product price" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/google_search_data_table.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/product.feature" />
       <option name="GLUE" value="io.loop.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-project-b3" />
-      <option name="NAME_FILTER" value="^Searching multiple items$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Searching multiple items$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Searching multiple items" />
+      <option name="NAME_FILTER" value="^verify each product price$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify each product price$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify each product price" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: verify students names on discord like the first exercise" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/product.feature" />
+      <option name="GLUE" value="io.loop.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-project-b3" />
+      <option name="NAME_FILTER" value="^verify students names on discord like the first exercise$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify students names on discord like the first exercise$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify students names on discord like the first exercise" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: verify students names on discord" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/product.feature" />
+      <option name="GLUE" value="io.loop.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-project-b3" />
+      <option name="NAME_FILTER" value="^verify students names on discord$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify students names on discord$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify students names on discord" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -123,16 +181,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Search functionality result title verification" />
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Searching multiple items" />
+        <item itemvalue="Cucumber Java.Scenario: verify each product price" />
+        <item itemvalue="Cucumber Java.Scenario: verify students names on discord" />
+        <item itemvalue="Cucumber Java.Scenario: verify students names on discord like the first exercise" />
+        <item itemvalue="Cucumber Java.Scenario: user should be able to place order and order should be seen in page" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-22-openjdk-22-4caba194b151-f504ca98" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -151,7 +211,24 @@
       <workItem from="1722035555071" duration="10594000" />
       <workItem from="1722260417133" duration="5965000" />
       <workItem from="1722267718501" duration="664000" />
-      <workItem from="1722553319548" duration="301000" />
+      <workItem from="1722553319548" duration="9344000" />
+      <workItem from="1722812342834" duration="1443000" />
+      <workItem from="1722822552951" duration="30000" />
+      <workItem from="1723109536207" duration="624000" />
+      <workItem from="1723110937812" duration="5509000" />
+      <workItem from="1723116605352" duration="8835000" />
+      <workItem from="1723161933320" duration="1152000" />
+      <workItem from="1723163099190" duration="7730000" />
+      <workItem from="1723175779243" duration="12128000" />
+      <workItem from="1723251211188" duration="3175000" />
+      <workItem from="1723383485398" duration="2174000" />
+      <workItem from="1723386297557" duration="1284000" />
+      <workItem from="1723387970015" duration="1096000" />
+      <workItem from="1723389420659" duration="283000" />
+      <workItem from="1723389712236" duration="9575000" />
+      <workItem from="1723430343398" duration="745000" />
+      <workItem from="1723460305869" duration="8102000" />
+      <workItem from="1723489724763" duration="4971000" />
     </task>
     <task id="LOCAL-00001" summary="first one">
       <option name="closed" value="true" />
@@ -177,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722036153699</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first onewd">
+      <option name="closed" value="true" />
+      <created>1723422754072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723422754072</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
